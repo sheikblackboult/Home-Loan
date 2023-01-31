@@ -285,7 +285,8 @@
                             <div class="col-xl-3 col-lg-3">
                                 <div class="we-provide__tab-btn-box">
                                     <ul class="tab-buttons clearfix list-unstyled">
-                                        <li data-tab="#values" class="tab-btn"><span>Conventional Fixed Rate loans</span></li>
+                                        <li data-tab="#values" class="tab-btn"><span>Conventional Fixed Rate
+                                                loans</span></li>
                                         <li data-tab="#mission" class="tab-btn active-btn"><span>Federal Housing
                                                 Administration Loans</span>
                                         </li>
@@ -308,7 +309,8 @@
                                                     <div class="we-provide__tab-main-content-icon">
                                                         <span class="icon-mission"></span>
                                                     </div>
-                                                    <h3 class="we-provide__tab-main-content-title">Conventional Fixed Rate loans</h3>
+                                                    <h3 class="we-provide__tab-main-content-title">Conventional Fixed
+                                                        Rate loans</h3>
                                                     <p class="we-provide__tab-main-content-text">It is a fixed rate
                                                         mortgage which comes with an interest rate. This will not change
                                                         until your home loan comes to an end. This loan conforms to
@@ -1224,7 +1226,8 @@
                                             <p>Pre-EMI interest is the interest that you pay on a Home Loan before the
                                                 loan start date. This type of interest applies to any home loans taken
                                                 out in advance, and is generally charged at a flat rate until the loan
-                                                starts.&nbsp;<a href="loan-calculator.html" ><u>Check your monthly EMI now!</u></a>
+                                                starts.&nbsp;<a href="loan-calculator.html"><u>Check your monthly EMI
+                                                        now!</u></a>
                                             </p>
                                         </div><!-- /.inner -->
                                     </div>
@@ -1260,7 +1263,8 @@
                                 <div class="site-footer__social">
                                     <a href="https://www.facebook.com/US-Mortgage-Interest-Rates-114711194847805/"><i
                                             class="fab fa-facebook"></i></a>
-                                    <a href="https://www.instagram.com/us_mortgage_interest_rate/"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.instagram.com/us_mortgage_interest_rate/"><i
+                                            class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -1380,7 +1384,7 @@
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
                     <a href="https://www.facebook.com/US-Mortgage-Interest-Rates-114711194847805/"><i
-                    class="fab fa-facebook"></i></a>
+                            class="fab fa-facebook"></i></a>
                     <a href="https://www.instagram.com/us_mortgage_interest_rate/"><i class="fab fa-instagram"></i></a>
                 </div><!-- /.mobile-nav__social -->
             </div><!-- /.mobile-nav__top -->
@@ -1435,6 +1439,7 @@
     <script src="assets/vendors/timepicker/timePicker.js"></script>
     <script src="assets/vendors/circleType/jquery.circleType.js"></script>
     <script src="assets/vendors/circleType/jquery.lettering.min.js"></script>
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 
 
@@ -1449,6 +1454,18 @@
         (function () {
             emailjs.init("zhGgXIkCL8et6KzHi");
         })();
+    </script>
+
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                        document.location.href = "/admin/";
+                    });
+                }
+            });
+        }
     </script>
 
     <!-- sweet alert cdn -->
