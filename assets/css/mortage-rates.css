@@ -1,0 +1,186 @@
+.mortage-rates {
+    margin-top: -50px;
+  }
+  
+  .mortage-rates h3{
+    margin-top: 100px;
+  }
+  
+  .mortage-rates p{
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+  
+  .btn-rates a{
+    bottom: 20px;
+  }
+  
+.mortage-read-out p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.mortage-credit ul{
+    margin-top: 40px;
+}
+
+.mortage-credit ul li {
+    padding: 0;
+    margin: 0;
+}
+.mortage-credit li {
+    margin-top: 30px;
+}
+
+.rwd-table {
+    margin: auto;
+    min-width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+  }
+  
+  .rwd-table tr:first-child {
+    border-top: none;
+    background: #D6002A;
+    color: #fff;
+  }
+  
+  .rwd-table tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #f5f9fc;
+  }
+  
+  .rwd-table tr:nth-child(odd):not(:first-child) {
+    background-color: #ebf3f9;
+  }
+  
+  .rwd-table th {
+    display: none;
+  }
+  
+  .rwd-table td {
+    display: block;
+  }
+  
+  .rwd-table td:first-child {
+    margin-top: .5em;
+  }
+  
+  .rwd-table td:last-child {
+    margin-bottom: .5em;
+  }
+  
+  .rwd-table td:before {
+    content: attr(data-th) ": ";
+    font-weight: bold;
+    width: 120px;
+    display: inline-block;
+    color: #000;
+  }
+  
+  .rwd-table th,
+  .rwd-table td {
+    text-align: left;
+  }
+  
+  .rwd-table {
+    color: #333;
+    border-radius: .4em;
+    overflow: hidden;
+  }
+  
+  .rwd-table tr {
+    border-color: #bfbfbf;
+  }
+  
+  .rwd-table th,
+  .rwd-table td {
+    padding: .5em 1em;
+  }
+  @media screen and (max-width: 601px) {
+    .rwd-table tr:nth-child(2) {
+      border-top: none;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .rwd-table tr:hover:not(:first-child) {
+      background-color: #d8e7f3;
+    }
+    .rwd-table td:before {
+      display: none;
+    }
+    .rwd-table th,
+    .rwd-table td {
+      display: table-cell;
+      padding: .25em .5em;
+    }
+    .rwd-table th:first-child,
+    .rwd-table td:first-child {
+      padding-left: 0;
+    }
+    .rwd-table th:last-child,
+    .rwd-table td:last-child {
+      padding-right: 0;
+    }
+    .rwd-table th,
+    .rwd-table td {
+      padding: 1em !important;
+    }
+  }
+  
+  .container-new{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  .card{
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+
+  .card-image{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .car-1{
+    background-image: url('../images/backgrounds/main-slider-1-1.jpg');
+  }
+
+  .car-2{
+    background-image: url('../images/backgrounds/main-slider-1-1.jpg');
+  }
+
+  .car-3{
+    background-image: url('../images/backgrounds/main-slider-1-1.jpg');
+  }
+
+  .car-4{
+    background-image: url('../images/backgrounds/main-slider-1-1.jpg');
+  }
+
+  .card h2{
+    padding: 10px;
+  }
+
+  .card p{
+    padding: 10px;
+  }
+
+  .card a {
+    color: blue;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20x 50px;
+    text-decoration: none;
+  }
+
+
+
